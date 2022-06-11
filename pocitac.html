@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Obchod</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/mojestyly.css">
+	<link rel="icon" href="obr/logo2.png" type="image/gif" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.wrapper
+		{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			/*flex-flow: row wrap;*/
+			font-weight: bold;
+			text-align: center;
+			
+		}
+
+		.wrapper > *
+		{
+			padding: 10px;
+			flex-grow: 1;
+			flex-basis: 90%;
+			
+		}
+
+		
+		@media only screen and (min-width: 600px)
+		{
+			.aside
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+		}
+
+		@media only screen and (min-width: 800px)
+		{
+			.main
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+			
+			aside:nth-child(3)
+			{
+				order: 1;
+			}
+
+			.main
+			{
+				order: 2;
+			}
+
+			aside:nth-child(4)
+			{
+				order: 3;
+			}
+
+			footer
+			{
+				order: 4;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="logo">
+			<img src="obr/logo2.png" alt="logo" style="width:65px">
+		</div>
+		
+		<ul class="nav">
+			<li><a href="index.html">Domů</a></li>
+			<li><a href="podpora.html">Podpora</a></li>
+		
+		</ul>
+		<div class= "banner">
+			<img class="banner_image" src="obr/template.png" alt="banner">
+		</div>
+			<span class="nadpis" style="position:absolute; left:150px; bottom:750px">POČÍTAČ</span>
+		
+		
+	</header>
+	<article class="main">
+		<div align="center" class="article">
+            <h1>CZC.Gaming Knight GC217</h1>
+            <img class="pc1" src="obr/pc1.jpg" alt="obrázek">
+            <p> Gamingový počítač, který splní nároky Full HD/QHD gamingu s vysokými FPS a umožní využití Ray-tracingu. 6jádrový procesor AMD Ryzen 5 3500X (3.6GHz, TB 4.1GHz), operační paměť 16GB DDR4 3200MHz Kingston HyperX Predator, pevné disky 512GB SSD M.2 PCIe NVMe Gigabyte a 2TB Seagate BarraCuda, grafická karta Gigabyte GeForce RTX 3060 12GB GDDR6, bez mechaniky, USB 3.1/3.2 Gen 2 Type-A a Type-C, 650W zdroj Gigabyte P650B 80Plus Bronze.  </p>
+            <h2>39 990 Kč</h2>
+        </div>
+       
+        <div align="center" class="article">
+            <h1>HAL3000 Alfa Gamer Pro 3060</h1>
+            <img class="pc2" src="obr/pc2.jpg" alt="obrázek">
+            <p> Gamingový počítač postavený na nejnovější technologii procesoru AMD Ryzen řady 5000 a grafiky NVIDIA GeForce RTX řady 30. 6jádrový procesor AMD Ryzen 5 5600X (3.7GHz, TB 4.6GHz, 12 vláken), 16GB operační paměti DDR4 3200MHz, disk 1TB SSD M.2 PCIe NVMe, grafická karta MSI GeForce RTX 3060 Ventus 12GB GDDR6, bez mechaniky, 600W zdroj SilentiumPC Vero L3 80Plus Bronze.  </p>
+            <h2>43 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Acer Nitro N50-110</h1>
+            <img class="pc3" src="obr/pc3.jpg" alt="obrázek">
+            <p> Gamingový počítač oblíbené řady Nitro pro skvělou zábavu ve vysokém rozlišení. 6jádrový procesor AMD Ryzen 5 3600X (3.8GHz, turbo 4.4GHz, 12 vláken), 16GB operační paměti DDR4, grafika NVIDIA GeForce RTX 2060 6GB GDDR6, pevný disk 1TB SSD, bez mechaniky, GLAN, WiFi ac, Bluetooth, USB Type-A a Type-C.</p>
+            <h2>31 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>LYNX Challenger</h1>
+            <img class="pc4" src="obr/pc4.jpg" alt="obrázek">
+            <p>  Gamingový počítač se solidním výkonem pro komfortní hraní ve Full HD rozlišení na vysoké detaily a FPS. 6jádrový procesor AMD Ryzen 5 1600 (3.2GHz, turbo 3.6GHz, 12 vláken), 16GB operační paměti DDR4, pevný disk 500GB SSD M.2 PCIe NVMe, grafická karta NVIDIA GeForce GTX 1660 Super 6GB GDDR6, bez mechaniky, 450W zdroj SilentiumPC Elementum E2.  </p>
+            <h2>24 690 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Gaming Paladin GC117</h1>
+            <img class="pc5" src="obr/pc5.jpg" alt="obrázek">
+            <p> Gamingový počítač pro pohodový QHD a občasný 4K gaming oblíbených online titulů a nenovějších herních pecek. 8jádrový procesor Intel Core i9-9900K (3.6GHz, TB 5GHz, HyperThreading), operační paměť 16GB DDR4 3200MHz Kingston HyperX Predator, pevné disky 1TB SSD M.2 PCIe NVMe GIGABYTE a 2TB HDD Seagate BarraCuda, grafická karta GIGABYTE GeForce RTX 3070 8GB GDDR6, bez mechaniky, 750W zdroj GIGABYTE P750GM 80Plus Gold. </p>
+            <h2>57 990 Kč</h2>
+        </div>
+	</article>
+	<aside class="aside">
+		<div align="center" class="article">
+            <h1>Acer Predator Orion 3000</h1>
+            <img class="pc6" src="obr/pc6.jpg" alt="obrázek">
+            <p> Špičková gamingová mašina v kompaktním provedení ovládne každé bojiště. 8jádrový procesor Intel Core i7-10700 (2.9GHz, TB 4.8GHz, HyperThreading). 16GB operační paměti DDR4, disk 1TB SSD, grafická karta NVIDIA GeForce RTX 3060 Ti 8GB GDDR6.  </p>
+            <h2>46 990 Kč</h2>
+        </div>
+
+         <div align="center" class="article">
+            <h1>HAL3000 Master 3070 IEM</h1>
+            <img class="pc7" src="obr/pc7.jpg" alt="obrázek">
+            <p> Gamingový počítač v edici IEM Certified s výkonem pro náročné hráče a progaming. 8jádrový procesor Intel Core i7-10700 (2.9GHz, TB 4.8GHz, HyperThreading), 32GB operační paměti DDR4, pevný disk 1TB SSD M.2 PCIe NVMe, grafická karta MSI GeForce RTX 3070 VENTUS 2X OC 8GB GDDR6, bez mechaniky, USB 3.1/3.2 Gen 2 Type-A/Type-C, 700W zdroj SilentiumPC Vero L3 Bronze. </p>
+            <h2>45 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Dell G5 Gaming</h1>
+            <img class="pc8" src="obr/pc8.jpg" alt="obrázek">
+            <p>Gamingový počítač v kompaktním provedení s výkonnými komponenty pro moderní hry. 8jádrový procesor Intel Core i7-10700K (2.9GHz, TB 4.8GHz, HyperThreading), 16GB operační paměti DDR4, pevný disk 1TB M.2 SSD PCIe NVMe, grafická karta NVIDIA GeForce RTX 2060 Super 8GB GDDR6, bez mechaniky. </p>
+            <h2>43 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>LYNX Grunex Ultra</h1>
+            <img class="pc9" src="obr/pc9.jpg" alt="obrázek">
+            <p> Gamingový počítač oblíbené řady Grunex v provedení pro rok 2021 postavený na platformě Core 10. generace a grafice GeForce RTX řady 30 zajistí pohodový gaming 144/240Hz Full HD/QHD na vysoké detaily a umožní také plynulé hraní ve 4K rozlišení. 8jádrový procesor Intel Core i7-10700F (2.9GHz, TB 4.8GHz, HyperThreading), operační paměť 16GB DDR4 Kingston HyperX FURY, grafická karta Gigabyte GeForce RTX 3070 GAMING OC 8GB GDDR6, pevný disk 1TB SSD M.2 PCIe NVMe Kingston A2000. </p>
+            <h2>43 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Lenovo ThinkStation P330</h1>
+            <img class="pc10" src="obr/pc10.jpg" alt="obrázek">
+            <p>Kvalitní pracovní stanice v provedení Small Form Factor, 8jádrový procesor Intel Core i9-9900 (3.1GHz, TB 5GHz, HyperThreading), paměť 16GB DDR4, grafická karta NVIDIA Quadro P1000 4GB GDDR5, disk 256GB SSD M.2 PCIe NVMe Opal. </p>
+            <h2>41 990 Kč</h2>
+        </div>
+	</aside>
+	<aside class="aside"> 
+		<div align="center" class="article">
+            <h1>MSI MPG Trident AS 10SC</h1>
+            <img class="pc11" src="obr/pc11.jpg" alt="obrázek">
+            <p>Výkonný gamingový počítač v kompaktním provedení o objemu 10.36 litru s řadou pokročilých technologií pro dokonalý zážitek při hře. 8jádrový procesor Intel Core i7-10700 (2.9GHz, TB 4.8GHz, HyperThreading); 16GB RAM DDR4; grafika NVIDIA GeForce RTX 2060 Super 8GB GDDR6; pevné disky 1TB SSD M.2 PCIe a 1TB HDD. </p>
+            <h2>41 490 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Gaming Knight GC216</h1>
+            <img class="pc12" src="obr/pc12.jpg" alt="obrázek">
+            <p>Gamingový počítač, který splní nároky Full HD/QHD gamingu s vysokými FPS a umožní využití Ray-tracingu. 6jádrový procesor AMD Ryzen 5 3600 (3.6GHz, TB 4.2GHz, 12 vláken), operační paměť 16GB DDR4 3600MHz Kingston HyperX Fury RGB, pevný disk 1TB SSD M.2 PCIe NVMe Samsung 970 EVO PLUS, grafická karta ASUS TUF GeForce RTX 3060 12GB GDDR6, bez mechaniky. Vše co každý uživatel potřebuje a někdy potřebovat bude. Uděláme vše pro naše zákazníky.</p>
+            <h2>39 490 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Gaming Knight GC217S</h1>
+            <img class="pc13" src="obr/pc13.jpg" alt="obrázek">
+            <p>Gamingový počítač, který splní nároky Full HD/QHD gamingu s vysokými FPS a umožní využití Ray-tracingu. 6jádrový procesor AMD Ryzen 5 3500X (3.6GHz, TB 4.1GHz), operační paměť 16GB DDR4 3200MHz Kingston HyperX Predator, pevné disky 512GB SSD M.2 PCIe NVMe Gigabyte a 2TB Seagate BarraCuda, grafická karta Gigabyte GeForce RTX 3060 12GB GDDR6. Vše co každý uživatel potřebuje a potřebovat bude.</p>
+            <h2>39 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>LYNX Grunex Pro 2021</h1>
+            <img class="pc14" src="obr/pc14.jpg" alt="obrázek">
+            <p> Gamingový počítač oblíbené řady Grunex v provedení pro rok 2021 postavený na platformě Core 10. generace a grafice GeForce RTX řady 30 zajistí pohodový gaming 144/240Hz Full HD/QHD na vysoké detaily a umožní také 4K gaming. 6jádrový procesor Intel Core i5-10400F (2.9GHz, TB 4.3GHz, HyperThreading), operační paměť 16GB DDR4 Kingston HyperX FURY, grafická karta NVIDIA GeForce RTX 3060 Ti GAMING OC 8GB GDDR6, pevný disk 1TB SSD M.2 PCIe NVMe Kingston A2000. </p>
+            <h2>37 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Lenovo ThinkCentre M90</h1>
+            <img class="pc15" src="obr/pc15.jpg" alt="obrázek">
+            <p> Kvalitní pracovní stanice v provedení Small Form Factor, 8jádrový procesor Intel Core i9-9900 (3.1GHz, TB 5GHz, HyperThreading), paměť 16GB DDR4, grafická karta NVIDIA Quadro P1000 4GB GDDR5, disk 256GB SSD M.2 PCIe NVMe Opal.</p>
+            <h2>34 990 Kč</h2>
+        </div>
+	</aside>
+	<footer class="footer">
+		<div class="footer">
+			<img class="footer_image" src="obr/template2.png" alt="obrázek">
+		</div>
+			<span class="paticka-text" style="position:fixed; left:50px; bottom:25px;">&copyJaroš</span>
+			<span class="paticka-text" style="position:fixed; left:1775px; bottom:25px;">1.3.2021</span>
+	</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/mojestyly.css">
+	<link rel="icon" href="obr/logo2.png" type="image/gif" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.wrapper
+		{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			/*flex-flow: row wrap;*/
+			font-weight: bold;
+			text-align: center;
+			
+		}
+
+		.wrapper > *
+		{
+			padding: 10px;
+			flex-grow: 1;
+			flex-basis: 100%;
+			/*flex: 1 100%; */
+		}
+
+		
+
+		@media only screen and (min-width: 600px)
+		{
+			.aside
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+		}
+
+		@media only screen and (min-width: 800px)
+		{
+			.main
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+			
+			aside:nth-child(3)
+			{
+				order: 1;
+			}
+
+			.main
+			{
+				order: 2;
+			}
+
+			aside:nth-child(4)
+			{
+				order: 3;
+			}
+
+			footer
+			{
+				order: 4;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="logo">
+			<img src="obr/logo2.png" alt="logo" style="width:65px">
+		</div>
+		
+		<ul class="nav">
+			<li><a href="index.html">Domů</a></li>
+			<li><a href="podpora.html">Podpora</a></li>
+			
+		</ul>
+		<div class= "banner">
+			<img class="banner_image" src="obr/template.png" alt="banner">
+		</div>
+			<span class="nadpis" style="position:absolute; left:450px; bottom:750px">PODPORA</span>
+		
+		
+	</header>
+	<article class="main">
+		<div align="center" class="article">
+            <h1>Zákaznicá linka</h1>
+            <img class="obrazek" src="obr/linka.png" alt="obrázek">
+            <p>Pokud máte nějaký problém zavolejte na číslo:</p>
+            <h2>720 555 465</h2>
+        </div>
+	</article>
+	<aside class="aside">
+		<div align="center" class="article">
+            <h1>Online podpora</h1>
+            <img class="chat2" src="obr/cha.jpg" alt="obrázek"></a>
+            <p>Pokud máte nějaký problém můžete nám napsat. </p>
+        </div>
+	</aside>
+	<aside class="aside"> 
+		<div align="center" class="article">
+            <h1>Nejčastější dotazy</h1>
+            <a href="https://helpdesk.eshop-rychle.cz/docs/nejcastejsi-dotazy/"><img class="otaznik" src="obr/otaznik.jpg" alt="obrázek"></a>
+            <p>Zjistit více: </p>
+        </div>
+	</aside>
+	<footer class="footer">
+		<div class="footer">
+			<img class="footer_image" src="obr/template2.png" alt="obrázek">
+		</div>
+			<span class="paticka-text" style="position:fixed; left:50px; bottom:25px;">&copyJaroš</span>
+			<span class="paticka-text" style="position:fixed; left:1775px; bottom:25px;">1.3.2021</span>
+	</footer>
+</div>
+</body>
+</html>

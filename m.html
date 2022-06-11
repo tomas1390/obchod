@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mobilní telefon</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/mojestyly.css">
+	<link rel="icon" href="obr/logo2.png" type="image/gif" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.wrapper
+		{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			/*flex-flow: row wrap;*/
+			font-weight: bold;
+			text-align: center;
+			
+		}
+
+		.wrapper > *
+		{
+			padding: 10px;
+			flex-grow: 1;
+			flex-basis: 100%;
+			
+		}
+
+		
+
+		@media only screen and (min-width: 600px)
+		{
+			.aside
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+		}
+
+		@media only screen and (min-width: 800px)
+		{
+			.main
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+			
+			aside:nth-child(3)
+			{
+				order: 1;
+			}
+
+			.main
+			{
+				order: 2;
+			}
+
+			aside:nth-child(4)
+			{
+				order: 3;
+			}
+
+			footer
+			{
+				order: 4;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="logo">
+			<img src="obr/logo2.png" alt="logo" style="width:65px">
+		</div>
+		
+		<ul class="nav">
+			<li><a href="index.html">Domů</a></li>
+			<li><a href="podpora.html">Podpora</a></li>
+		
+		</ul>
+		<div class= "banner">
+			<img class="banner_image" src="obr/template.png" alt="banner">
+		</div>
+			<span class="nadpis" style="position:absolute; left:450px; bottom:750px">MOBILNÍ TELEFON</span>
+		
+		
+	</header>
+	<article class="main">
+		<div align="center" class="article">
+            <h1>Realme 7</h1>
+            <img class="mobil2" src="obr/mob2.jpg" alt="obrázek">
+            <p> Chytrý telefon s rychlým 90Hz Full Screen displejem, čtyřnásobným fotoaparátem, vysokým herním výkonem a umělou inteligencí. 6.5" displej s Full HD+ rozlišením 2400 x 1080 bodů, 8jádrový procesor MediaTek Helio G95 až 2.05GHz, 8GB operační paměti, 128GB interní paměti, zadní fotoaparáty 48 Mpx.  </p>
+            <h2>4 990 Kč</h2>
+        </div>
+
+		<div align="center" class="article">
+            <h1>POCO X3 Pro</h1>
+            <img class="mobil5" src="obr/mob5.jpg" alt="obrázek">
+            <p> Chytrý telefon navržený pro hry a perfektní zábavu. 6.67" IPS displej s Full HD+ rozlišením 2400 x 1080 bodů, 8jádrový procesor Snapdragon 860 až 2.96GHz, 6GB operační paměti, 128GB interní paměti, zadní fotoaparáty 48 Mpx. Většina zákazníku je spokojena.</p>
+            <h2>5 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>One Plus 9</h1>
+            <img class="mobil8" src="obr/mob8.jpg" alt="obrázek">
+            <p>Prémiový chytrý telefon OnePlus s obrovským výkonem, špičkovým trojnásobným fotoaparátem s technologií Hasselblad, umělou inteligencí a superrychlým Fluid AMOLED Full Screen displejem. 6.55" 120Hz displej Full HD+ 2400 x 1080 bodů, 8jádrový procesor Snapdragon 888, 8GB operační paměti, 128GB interní paměti. </p>
+            <h2>18 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Apple iPhone Xr</h1>
+            <img class="mobil11" src="obr/mob11.jpg" alt="obrázek">
+            <p> Luxusní iPhone řady X s velkým displejem Liquid Retina HD, vysokým výkonem, umělou inteligencí a kvalitním fotoaparátem. 6,1" IPS displej s širokým barevným gamutem a technologií TrueTone, rozlišení 1792 × 828 bodů; 6jádrový čip A12 Bionic; 128 GB interní paměti.</p>
+            <h2>15 989 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Xiaomi MI 10T</h1>
+            <img class="mobil14" src="obr/mob14.jpg" alt="obrázek">
+            <p>Výkonný chytrý telefon s rychlým 144Hz IPS displejem, trojnásobným fotoaparátem a podporou sítí 5G. 6.67" displej s Full HD+ rozlišením 2400 x 1080 bodů, 8jádrový procesor Snapdragon 865 až 2.84GHz, 8GB operační paměti, 128GB interní paměti, zadní fotoaparáty 64 Mpx. </p>
+            <h2>13 990 Kč</h2>
+        </div>
+	</article>
+	<aside class="aside">
+		<div align="center" class="article">
+            <h1>Xiaomi Redmi Note 9</h1>
+            <img class="mobil" src="obr/mob.jpg" alt="obrázek">
+            <p> Chytrý telefon s čtyřnásobným fotoaparátem 64MP Quad Camera Pro, umělou inteligencí a obrovským Full Screen displejem. 6.67" IPS displej s Full HD+ rozlišením 2400 x 1080 bodů, 8jádrový procesor Qualcomm Snapdragon 720G až 2.3GHz, 6GB operační paměti, 64GB interní paměti, zadní fotoaparáty 64 Mpx. </p>
+            <h2>5 289 Kč</h2>
+		</div>
+
+		<div align="center" class="article">
+            <h1>Samsung Galaxy S20+</h1>
+            <img class="mobil4" src="obr/mob4.jpg" alt="obrázek">
+            <p>  Prémiový chytrý telefon řady Galaxy S, který přináší vylepšené fotoaparáty, superrychlý 120Hz displej, skvělý výkon a nové funkce. 6.7" displej Dynamic AMOLED 2X Infinity-O s rozlišením 3200 x 1440 bodů, 8jádrový procesor Exynos 990, 8GB operační paměti, 128GB interní paměť, slot pro paměťové karty microSD. </p>
+            <h2>15 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Samsung Galaxy A32</h1>
+            <img class="mobil7" src="obr/mob7.jpg" alt="obrázek">
+            <p> Chytrý telefon řady Galaxy A s čtyřnásobným fotoaparátem, řadou pokročilých funkcí a parádním Infinity-U bezrámečkovým displejem. 6.4" Super AMOLED displej s Full HD+ rozlišením 2400 x 1080 bodů, 8jádrový procesor Mediatek Helio G80 až 2GHz, 4GB operační paměti, 128GB interní paměti, zadní fotoaparáty 64Mpx.  </p>
+            <h2>6 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Huawei P40 lite</h1>
+            <img class="mobil10" src="obr/mob10.jpg" alt="obrázek">
+            <p> Chytrý telefon s velkým Punch FullView displejem, čtyřnásobným fotoaparátem s umělou inteligencí a moderním designem. 6.4" displej s Full HD+ rozlišením 2310 x 1080 bodů, 8jádrový procesor Kirin 810 až 2.27GHz, 6GB operační paměti, 128GB interní paměti. </p>
+            <h2>5 490 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Samsung Galaxy A21s</h1>
+            <img class="mobil13" src="obr/mob13.jpg" alt="obrázek">
+            <p>Chytrý telefon řady Galaxy A s čtyřnásobným fotoaparátem, který nabízí řadu pokročilých funkcí a Infinity-O bezrámečkový displej. 6.6" displej s HD+ rozlišením 1600 x 720 bodů, 8jádrový procesor Exynos 850 2GHz, 4GB operační paměti, 64GB interní paměti, zadní fotoaparáty 48 Mpx. </p>
+            <h2>4 490 Kč</h2>
+        </div>
+	</aside>
+	<aside class="aside"> 
+		<div align="center" class="article">
+            <h1>Samsung Galaxy A52</h1>
+            <img class="mobil3" src="obr/mob3.jpg" alt="obrázek">
+            <p> Chytrý telefon řady Galaxy A s rychlým displejem, čtyřnásobným fotoaparátem a řadou pokročilých funkcí. 6.5" 90Hz Super AMOLED displej s Full HD+ rozlišením 2400 x 1080 bodů, 8jádrový procesor Snapdragon 720G až 2.3GHz, 6GB operační paměti, 128GB interní paměti, zadní fotoaparáty 64Mpx. </p>
+            <h2>8 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Apple iPhone 11</h1>
+            <img class="mobil6" src="obr/mob6.jpg" alt="obrázek">
+            <p> Nová generace iPhone s duálním fotoaparátem, displejem Liquid Retina HD, ještě vyšším výkonem, umělou inteligencí a řadou novinek. 6.1" displej s širokým barevným gamutem, technologií TrueTone a Haptic Touch, rozlišení 1792 × 828 bodů; 6jádrový čip A13 Bionic; 64 GB interní paměti; duální 12MP fotoaparát. Velice populární. </p>
+            <h2>17 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Nokia 5.3</h1>
+            <img class="mobil9" src="obr/mob9.jpg" alt="obrázek">
+            <p> Chytrý telefon s velkým Punch FullView displejem, čtyřnásobným fotoaparátem s umělou inteligencí a moderním designem. 6.4" displej s Full HD+ rozlišením 2310 x 1080 bodů, 8jádrový procesor Kirin 810 až 2.27GHz, 6GB operační paměti, 128GB interní paměti. Využitelné na mnoho možností pro vaše účely jaké potřebujete. </p>
+            <h2>3 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Realme 7 Pro</h1>
+            <img class="mobil12" src="obr/mob12.jpg" alt="obrázek">
+            <p>Chytrý telefon s extrémně rychlým nabíjením, čtyřnásobným fotoaparátem, Super AMOLED displejem, vysokým herním výkonem a umělou inteligencí. 6.4" displej s Full HD+ rozlišením 2400 x 1080 bodů, 8jádrový procesor Snapdragon 720G až 2.3GHz, 8GB operační paměti, 128GB interní paměti. </p>
+            <h2>6 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Apple iPhone 12</h1>
+            <img class="mobil15" src="obr/mob15.jpg" alt="obrázek">
+            <p> Nejnovější iPhone s ohromným výkonem, displejem OLED Super Retina XDR, připojením 5G, trojitou fotosoustavou, LiDAR skenerem, umělou inteligencí a sadou nových funkcí. 6.7" displej s širokým barevným gamutem, technologií TrueTone a Haptic Touch, rozlišení 2778 × 1284 bodů; čip A14 Bionic; 256 GB interní paměti; trojitý 12MP fotoaparát. </p>
+            <h2>36 990 Kč</h2>
+        </div>
+	</aside>
+	<footer class="footer">
+		<div class="footer">
+			<img class="footer_image" src="obr/template2.png" alt="obrázek">
+		</div>
+			<span class="paticka-text" style="position:fixed; left:50px; bottom:25px;">&copyJaroš</span>
+			<span class="paticka-text" style="position:fixed; left:1775px; bottom:25px;">1.3.2021</span>
+	</footer>
+</div>
+</body>
+</html>

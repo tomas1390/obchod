@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/mojestyly.css">
+	<link rel="icon" href="obr/logo2.png" type="image/gif" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.wrapper
+		{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			/*flex-flow: row wrap;*/
+			font-weight: bold;
+			text-align: center;
+			
+		}
+
+		.wrapper > *
+		{
+			padding: 10px;
+			flex-grow: 1;
+			flex-basis: 100%;
+			/*flex: 1 100%; */
+		}
+
+		
+
+		@media only screen and (min-width: 600px)
+		{
+			.aside
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+		}
+
+		@media only screen and (min-width: 800px)
+		{
+			.main
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+			
+			aside:nth-child(3)
+			{
+				order: 1;
+			}
+
+			.main
+			{
+				order: 2;
+			}
+
+			aside:nth-child(4)
+			{
+				order: 3;
+			}
+
+			footer
+			{
+				order: 4;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="logo">
+			<img src="obr/logo2.png" alt="logo" style="width:65px">
+		</div>
+		
+		<ul class="nav">
+			<li><a href="index.html">Domů</a></li>
+			<li><a href="podpora.html">Podpora</a></li>
+			
+		</ul>
+		<div class= "banner">
+			<img class="banner_image" src="obr/template.png" alt="banner">
+		</div>
+			<span class="nadpis" style="position:absolute; left:450px; bottom:750px">NOTEBOOK</span>
+		
+		
+	</header>
+	<article class="main">
+		<div align="center" class="article">
+            <h1>Acer Nitro 5</h1>
+            <img class="obrazek9" src="obr/nbok2.jpg" alt="obrázek">
+            <p> Dostupný herní notebook pro zábavu ve vysokém rozlišení se stylovým designem. 4jádrový procesor Intel Core i5-9300H (2.4GHz, TB 4.1GHz, HyperThreading); 8GB RAM DDR4, 15.6" 120Hz IPS Full HD displej; grafika NVIDIA GeForce GTX 1650 4GB GDDR5; disk 512GB SSD M.2 PCIe NVMe.  </p>
+            <h2>21 990 Kč</h2>
+        </div>
+
+		<div align="center" class="article">
+            <h1>Lenovo ThinkPad E15 Gen 2</h1>
+            <img class="obrazek12" src="obr/nbok5.jpg" alt="obrázek">
+            <p> Firemní notebook pro každodenní použití nejen v kanceláři, ale i na cestách se solidní výdrží při práci na baterii. 15.6" IPS Full HD displej (1920x1080 bodů), 8jádrový procesor AMD Ryzen 7 4700U (2GHz, TB 4.1GHz), 16GB RAM DDR4, disk 512GB SSD M.2 PCIe NVMe, bez mechaniky.  </p>
+            <h2>25 790 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>MSI GF65 Thin</h1>
+            <img class="obrazek15" src="obr/nbok8.jpg" alt="obrázek">
+            <p> Gamingový notebook v lehkém a tenkém provedení pro herní zábavu na cestách. 6jádrový procesor Intel Core i5-10500H , 16GB RAM DDR4, 15.6" 144Hz IPS-level Full HD displej, grafika NVIDIA GeForce RTX 3060 6GB GDDR6, disk 512GB SSD M.2 PCIe NVMe. </p>
+            <h2>30 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Lenovo IdeaPad S145</h1>
+            <img class="obrazek18" src="obr/nbok11.jpg" alt="obrázek">
+            <p>Dostupný notebook pro každodenní běžné požadavky na práci i zábavu. 4jádrový procesor Intel Core i5-1035G1; 8GB operační paměti DDR4, 15.6" Full HD displej, grafika Intel UHD Graphics, disk 256GB SSD M.2 PCIe NVMe. </p>
+            <h2>15 989 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>ASUS Zenbook 14</h1>
+            <img class="obrazek21" src="obr/nbok14.jpg" alt="obrázek">
+            <p> Výkonný kompaktní notebook společnosti ASUS, displej 14“ FHD (1920 x 1080) 16:9 IPS s úpravou proti odleskům, NanoEdge, procesor AMD Ryzen 5 4500U, paměť 8 GB DDR4, datové úložiště 512 GB M.2 SSD PCIe 3.0 NVMe, integrovaná grafika AMD Radeon Graphics. </p>
+            <h2>21 990 Kč</h2>
+        </div>
+	</article>
+	<aside class="aside">
+		<div align="center" class="article">
+            <h1>Lenovo IdeaPad Gaming 3</h1>
+            <img class="obrazek8" src="obr/nbok1.jpg" alt="obrázek">
+            <p> Gamingový notebook v dostupném provedení řady IdeaPad Gaming 3. 6jádrový procesor AMD Ryzen 5 4600H (3GHz, TB 4GHz, 12 vláken), 8GB operační paměti DDR4, grafika NVIDIA GeForce GTX 1650 4GB GDDR6, 15.6" IPS FullHD displej (1920x1080 bodů), disk 256GB SSD M.2 PCIe NVMe.  </p>
+            <h2>16 890 Kč</h2>
+		</div>
+
+		<div align="center" class="article">
+            <h1>HP ProBook 450 G7</h1>
+            <img class="obrazek11" src="obr/nbok4.jpg" alt="obrázek">
+            <p> Notebook 7. generace oblíbené řady ProBook, který je spolehlivý, odolný a dobře zabezpečený. 4jádrový procesor Intel Core i5-10210U (1.6GHz, TB 4.2GHz, HyperThreading), 8GB RAM DDR4, displej 15.6" IPS Full HD s rozlišením 1920 x 1080 bodů, grafika Intel UHD Graphics, disk 512GB M.2 SSD PCIe NVMe.  </p>
+            <h2>19 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Dell Inspiron 15</h1>
+            <img class="obrazek14" src="obr/nbok7.jpg" alt="obrázek">
+            <p> Stylový notebook s vyváženým výkonem pro nekončící zábavu a pohodlnou práci. 2jádrový procesor Intel Core i3-1005G1 (1.2GHz, TB 3.4GHz, HyperThreading), 8GB RAM DDR4, 15.6" Full HD displej (1920x1080 bodů), grafická karta Intel UHD Graphics, disk 512GB SSD M.2 PCIe NVMe.   </p>
+            <h2>15 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Dell G3 15 Gaming</h1>
+            <img class="obrazek17" src="obr/nbok10.jpg" alt="obrázek">
+            <p> Gamingový notebook s výkonem procesoru Intel Core 10. generace a grafiky GeForce s architekturou Turing pro skvělé herní zážitky. 6jádrový procesor Intel Core i7-10750H, 8GB RAM DDR4, 15.6" 120Hz Full HD displej, grafika NVIDIA GeForce GTX 1650 Ti 4GB GDDR6, disk 512GB SSD M.2 PCIe. </p>
+            <h2>27 490 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>MSI GL65 Leopard</h1>
+            <img class="obrazek20" src="obr/nbok13.jpg" alt="obrázek">
+            <p>Gamingový notebook s grafikou GeForce RTX 2060 a klávesnicí od SteelSeries. 6jádrový procesor Intel Core i7-10750H, 16GB RAM DDR4, 15.6" 144Hz IPS-level Full HD displej, grafika NVIDIA GeForce RTX 2060 6GB GDDR6, pevný disk 1TB M.2 PCIe NVMe SSD. </p>
+            <h2>36 990 Kč</h2>
+        </div>
+	</aside>
+	<aside class="aside"> 
+		<div align="center" class="article">
+            <h1>Dell Latitude 15</h1>
+            <img class="obrazek10" src="obr/nbok3.jpg" alt="obrázek">
+            <p>Kvalitní notebook profesionální řady Latitude pro vaše podnikání i soukromé použití s vysokou odolností a funkcemi pro zabezpečení. 4jádrový procesor Intel Core i5-10210U (1.6GHz, TB 4.2GHz, HyperThreading), 8GB RAM DDR4, disk 256GB SSD M.2 PCIe, 15.6" Full HD displej (1920x1080 bodů). </p>
+            <h2>19 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Acer Aspire 3</h1>
+            <img class="obrazek13" src="obr/nbok6.jpg" alt="obrázek">
+            <p> Notebook v elegantním designu pro každodenní běžné požadavky na práci i zábavu. 2jádrový procesor AMD A4-9120e (1.5GHz, TB 2.2GHz), 8GB operační paměti DDR4, 15.6" Full HD displej, grafika AMD Radeon R3 series, disk 256GB SSD M.2 PCIe NVMe.  </p>
+            <h2>11 490 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Lenovo Legion 5</h1>
+            <img class="obrazek16" src="obr/nbok9.jpg" alt="obrázek">
+            <p> Gamingový notebook oblíbené řady Legion pro skvělé zážitky z mobilního hraní a zábavy. 6jádrový procesor AMD Ryzen 5 5600H , 17.3" 144Hz IPS Full HD displej, grafika NVIDIA GeForce RTX 3060 6GB GDDR6, 16GB RAM DDR4, disk 512GB SSD M.2 PCIe NVMe. </p>
+            <h2>27 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Lenovo Legion 5</h1>
+            <img class="obrazek16" src="obr/nbok9.jpg" alt="obrázek">
+            <p> Gamingový notebook oblíbené řady Legion pro skvělé zážitky z mobilního hraní a zábavy. 6jádrový procesor AMD Ryzen 5 5600H , 17.3" 144Hz IPS Full HD displej, grafika NVIDIA GeForce RTX 3060 6GB GDDR6, 16GB RAM DDR4. </p>
+            <h2>27 990 Kč</h2>
+        </div>
+		<div align="center" class="article">
+            <h1>Razer Blade 15</h1>
+            <img class="obrazek22" src="obr/nbok15.jpg" alt="obrázek">
+            <p> Gamingový notebook od herní legendy Razer, který vás odliší z davu. 8jádrový procesor Intel Core i7-10875H, 32GB RAM DDR4, 15.6" 240Hz QHD displej, grafika NVIDIA GeForce RTX 3080 8GB GDDR6, pevný disk 1TB M.2 PCIe. </p>
+            <h2>84 990 Kč</h2>
+        </div>
+	</aside>
+	<footer class="footer">
+		<div class="footer">
+			<img class="footer_image" src="obr/template2.png" alt="obrázek">
+		</div>
+			<span class="paticka-text" style="position:fixed; left:50px; bottom:25px;">&copyJaroš</span>
+			<span class="paticka-text" style="position:fixed; left:1775px; bottom:25px;">1.3.2021</span>
+	</footer>
+</div>
+</body>
+</html>

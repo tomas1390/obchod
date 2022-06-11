@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Obchod</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/mojestyly.css">
+	<link rel="icon" href="obr/logo2.png" type="image/gif" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		.wrapper
+		{
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			/*flex-flow: row wrap;*/
+			font-weight: bold;
+			text-align: center;
+			
+		}
+
+		.wrapper > *
+		{
+			padding: 10px;
+			flex-grow: 1;
+			flex-basis: 90%;
+			
+		}
+
+		
+
+		@media only screen and (min-width: 600px)
+		{
+			.aside
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+		}
+
+		@media only screen and (min-width: 800px)
+		{
+			.main
+			{
+				flex-grow: 1;
+				flex-shrink: 0;
+				flex-basis: 0;
+			}
+			
+			aside:nth-child(3)
+			{
+				order: 1;
+			}
+
+			.main
+			{
+				order: 2;
+			}
+
+			aside:nth-child(4)
+			{
+				order: 3;
+			}
+
+			footer
+			{
+				order: 4;
+			}
+		}
+
+
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="logo">
+			<img src="obr/logo2.png" alt="logo" style="width:65px">
+		</div>
+		
+		<ul class="nav">
+			<li><a href="index.html">Domů</a></li>
+			<li><a href="podpora.html">Podpora</a></li>
+			
+		</ul>
+		<div class= "banner">
+			<img class="banner_image" src="obr/template.png" alt="banner">
+		</div>
+			<span class="nadpis" style="position:absolute; left:150px; bottom:750px">OBCHOD</span>
+		
+		
+	</header>
+	<article class="main">
+		<div align="center" class="article">
+            <h1>Lenovo TAB M10 Plus</h1>
+            <img class="tab1" src="obr/tab1.jpg" alt="obrázek">
+            <p> Tablet pro celou rodinu a skvělou zábavu se zvukovou technologií Dolby Atmos. Dotykový 10.3" displej s rozlišením 1920 x 1200 bodů, 8jádrový procesor MediaTek Helio P22T, 4GB operační paměti, 64GB interní paměť, WiFi ac, Bluetooth 5.0, přední 5Mpx a zadní 8Mpx kamery, USB Type-C, baterie 5000mAh, OS Android. </p>
+            <h2>5 390 Kč</h2>
+        </div>
+       
+        <div align="center" class="article">
+            <h1>Lenovo TAB P11</h1>
+            <img class="tab2" src="obr/tab2.jpg" alt="obrázek">
+            <p>Výkonný tablet pro celou rodinu a skvělou zábavu se zvukovou technologií Dolby Atmos. Podpora připojení LTE. Dotykový 11" IPS displej, rozlišení 2000 x 1200 bodů, 8jádrový procesor Qualcomm Snapdragon 662 až 2GHz, 6GB operační paměti, 128GB interní paměť, WiFi ac, Bluetooth, GPS/Glonass, přední 8Mpx a zadní 13Mpx kamery, USB Type-C, baterie 7500mAh, OS Android.  </p>
+            <h2>8 490 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Samsung Galaxy Tab A7 T500N</h1>
+            <img class="tab3" src="obr/tab3.jpg" alt="obrázek">
+            <p>Odolný tablet s širokoúhlým dynamickým 10,4" displejem, rozlišení 2000 × 1200 TFT. Tenký design, 7 mm. Vysoký výkon. Kovové tělo. Rychlý 8jádrový procesor. Qualcomm Snapdragon 662 2 GHz. RAM 3 GB. Interní paměť 32 GB. Paměťová karta až 1 TB. Wi-Fi. Bluetooth. Podpora rychlého 15 W dobíjení. Baterie s kapacitou 7 040 mAh.  </p>
+            <h2>5 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Lenovo Yoga Smart Tab</h1>
+            <img class="tab4" src="obr/tab4.jpg" alt="obrázek">
+            <p> Tablet plný zábavy a vestavěným asistentem Google pro ovládání chytré domácnosti. Dotykový 10.1" IPS displej, Full HD+ rozlišení 1920 x 1200 bodů, 8jádrový procesor Qualcomm Snapdragon 439 s frekvenci až 2 GHz, 4GB operační paměti, 64GB interní paměť, slot microSD, WiFi ac, Bluetooth 4.2, GPS/ Glonass/ BDS, přední 4Mpx a zadní 8Mpx kamery. </p>
+            <h2>6 990 Kč</h2>
+        </div>
+        
+         
+	</article>
+	<aside class="aside">
+		<div align="center" class="article">
+            <h1>Samsung Galaxy Tab S7+</h1>
+            <img class="tab6" src="obr/tab6.jpg" alt="obrázek">
+            <p> Exkluzivní tablet s obrovským výkonem, perem S Pen, duálním fotoaparátem a velmi tenkou konstrukcí. Dotykový 12.4" 120Hz sAMOLED displej 2800 x 1752 bodů, 8jádrový procesor Qualcomm Snapdragon 865+, 6GB operační paměti, 128GB interní paměti; microSD slot, WiFi ax, Bluetooth 5 BLE, kamery: zadní 13Mpx + 5Mpx a přední 8Mpx, GPS/ Glonass/ Galileo/ BDS, čtečka otisků prstů v displeji, podpora Samsung DeX, pero Samsung S Pen, 4 reproduktory, baterie s kapacitou 10090mAh a podporou rychlého nabíjení; OS Android. </p>
+            <h2>24 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Alcatel 1T 10 SMART</h1>
+            <img class="tab7" src="obr/tab7.jpg" alt="obrázek">
+            <p> Tablet s 10palcovým HD displejem o rozlišení 1280 x 800 bodů a pouzdrem a klávesnicí. 4jádrový procesor MT8167D 1.3 GHz, 2GB operační paměti, interní paměť 32GB, slot microSD, fotoaparáty 2 Mpx a 2 Mpx, Wi-Fi, Bluetooth, USB Type-C, 3.5 mm konektor, baterie 4080 mAh, operační systém Android 10. </p>
+            <h2>3 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Huawei Mediapad T5</h1>
+            <img class="tab8" src="obr/tab8.jpg" alt="obrázek">
+            <p> Užijte si více zábavy s výkonným tabletem v kompaktním a elegantním designu. 8jádrový procesor Kirin 659, RAM 2 GB, interní paměť s kapacitou 16 GB. Multi-dotykový 10.1" IPS displej s rozlišením 1920 x 1200 bodů, WiFi, Bluetooth, 4G LTE, GPS přijímač, 3,5 mm jack, 5MP + 2MP kamera, mobilní systém Android 8.0 s EMUI 8.1, výkonná 5100mAh baterie. </p>
+            <h2>4 990 Kč</h2>
+        </div>
+        
+         <div align="center" class="article">
+            <h1>Lenovo TAB M10</h1>
+            <img class="tab9" src="obr/tab9.jpg" alt="obrázek">
+            <p> Tablet pro vhodný skvělou zábavu se zvukovou technologií Dolby Atmos nebo využití v komerčním prostředí. Dotykový 10.1" IPS displej, rozlišení 1920 x 1200 bodů, 8jádrový procesor Qualcomm Snapdragon 450, 2GB operační paměti, 32GB interní paměť, WiFi ac, Bluetooth 4.2, kamery: přední 5Mpx a zadní 8Mpx, micro USB, baterie 7000mAh. </p>
+            <h2>4 990 Kč</h2>
+        </div>
+        
+         
+	</aside>
+	<aside class="aside"> 
+		<div align="center" class="article">
+            <h1>iGET SMART W201</h1>
+            <img class="tab11" src="obr/tab11.jpg" alt="obrázek">
+            <p>Tablet s 10.1" IPS displejem pro každodenní zábavu. Rozlišením 1280 x 800 bodů, 4jádrový procesor Allwinner A133, 2GB operační paměti, 16GB interní paměti, microSD slot, WiFi, GPS, Bluetooth, 2MP a 5MP kamery, baterie 5000 mAh, OS Android. </p>
+            <h2>2 989 Kč</h2>
+        </div>
+        
+        
+        
+        
+        
+        
+         <div align="center" class="article">
+            <h1>Huawei Mediapad T5 10</h1>
+            <img class="tab12" src="obr/tab12.jpg" alt="obrázek">
+            <p>Užijte si více zábavy s výkonným tabletem v kompaktním a elegantním designu. 8jádrový procesor Kirin 659, RAM 4 GB, interní paměť s kapacitou 64 GB. Multi-dotykový 10.1" IPS displej s rozlišením 1920 x 1200 bodů, WiFi, Bluetooth, GPS přijímač, 3,5 mm jack, 5MP + 2MP kamera, mobilní systém Android 8.0 s EMUI 8.1, výkonná 5100mAh baterie. </p>
+            <h2>5 490 Kč</h2>
+        </div>
+        
+        <div align="center" class="article">
+            <h1>Samsung Galaxy Tab S7 T870N</h1>
+            <img class="tab10" src="obr/tab10.jpg" alt="obrázek">
+            <p> Exkluzivní tablet s obrovským výkonem, perem S Pen, duálním fotoaparátem a velmi tenkou konstrukcí. Dotykový 11" 120Hz LTPS displej 2560 x 1600 bodů, 8jádrový procesor Qualcomm Snapdragon 865+, 6GB operační paměti, 128GB interní paměti; microSD slot, WiFi ax, Bluetooth 5 BLE, kamery: zadní 13Mpx + 5Mpx a přední 8Mpx, GPS/ Glonass/ Galileo/ BDS, čtečka otisků prstů, podpora Samsung DeX, pero Samsung S Pen, 4 reproduktory, baterie s kapacitou 8000mAh a podporou rychlého nabíjení; OS Android. </p>
+            <h2>18 490 Kč</h2>
+        </div>
+
+		<div align="center" class="article">
+            <h1>Huawei MatePad T10</h1>
+            <img class="tab5" src="obr/tab5.jpg" alt="obrázek">
+            <p> Dostupný tablet s tenkým tělem a dobrým výkonem pro multimediální zábavu. 9,7" IPS displej s rozlišením 1280 x 800 pixel, 8jádrový procesor Huawei Kirin 710A, 2GB operační paměti, 32GB interní paměti, microSD slot, Bluetooth 5.0, WiFi ac, 5Mpx a 2Mpx kamery, GPS/ Glonass / BDS přijímač, 5100mAh baterie, OS Android.</p>
+            <h2>5 790 Kč</h2>
+        </div>
+        
+	</aside>
+	<footer class="footer">
+		<div class="footer">
+			<img class="footer_image" src="obr/template2.png" alt="obrázek">
+		</div>
+			<span class="paticka-text" style="position:fixed; left:50px; bottom:25px;">&copyJaroš</span>
+			<span class="paticka-text" style="position:fixed; left:1775px; bottom:25px;">1.3.2021</span>
+	</footer>
+</div>
+</body>
+</html>
